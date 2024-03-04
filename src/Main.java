@@ -18,6 +18,6 @@ public class Main {
         for(int x=1; x<=numN; x++) {factN *=x;}     //N number factorial
         for(int y=1; y<=numR; y++) {factR *=y;}      //R number factorial
         for(int z=1; z<=(numN-numR); z++) {factS *=z;}  //n-r factorial
-        System.out.println("N'nin R'li kombinasyonu C(n , r): " + factN/(factR*factS));  //C(n,r)
+        System.out.println("n'nin r'li kombinasyonu C(n , r): " + factN/(factR*factS));  //C(n,r)
     }
 }
